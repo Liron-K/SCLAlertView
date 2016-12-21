@@ -222,6 +222,12 @@ typedef NS_ENUM(NSInteger, SCLAlertViewBackground)
  */
 @property (nonatomic) UIStatusBarStyle statusBarStyle;
 
+/** Adjust top title padding
+ *
+ * Returns how much padding the title has.
+ */
+@property CGFloat titleTopPadding;
+
 /** Set horizontal alignment for buttons
  *
  * Horizontal aligment instead of vertically if YES
